@@ -25,8 +25,7 @@ const Hero = ({ openModal }) => {
           
           <FadeIn delay={200}>
             <h1 style={{ fontSize: 'clamp(2.5rem, 5vw, 4rem)', lineHeight: 1.1, margin: 0 }}>
-              Escala tu flujo de pacientes cualificados.<br />
-              <span style={{ color: 'var(--color-text-muted)' }}>Toma el control absoluto de tu clínica.</span>
+              Consigue pacientes cualificados para tu clínica en menos de 30 días.
             </h1>
           </FadeIn>
           
