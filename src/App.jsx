@@ -8,7 +8,6 @@ import Results from './components/Results';
 import Features from './components/Features';
 import Bonuses from './components/Bonuses';
 import Guarantee from './components/Guarantee';
-import Pricing from './components/Pricing';
 import Urgency from './components/Urgency';
 import FAQ from './components/FAQ';
 import CTA from './components/CTA';
@@ -28,7 +27,6 @@ function App() {
       <Features />
       <Bonuses />
       <Guarantee />
-      <Pricing openModal={() => setIsModalOpen(true)} />
       <Urgency />
       <FAQ />
       <CTA openModal={() => setIsModalOpen(true)} />
