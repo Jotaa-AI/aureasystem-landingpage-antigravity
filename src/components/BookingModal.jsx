@@ -29,21 +29,11 @@ const BookingModal = ({ isOpen, onClose }) => {
 
         <div className="modal-body" style={{ height: '100%', padding: '0' }}>
           <iframe
-            src="https://link.cleesaas.com/widget/form/odLLLY4e7ZOkwUWdi6sT"
-            style={{ width: '100%', height: '100%', border: 'none' }}
-            id="popup-odLLLY4e7ZOkwUWdi6sT" 
-            data-layout="{'id':'POPUP'}"
-            data-trigger-type="alwaysShow"
-            data-trigger-value=""
-            data-activation-type="alwaysActivated"
-            data-activation-value=""
-            data-deactivation-type="neverDeactivate"
-            data-deactivation-value=""
-            data-form-name="Descubrimiento Aurea Systems"
-            data-height="undefined"
-            data-layout-iframe-id="popup-odLLLY4e7ZOkwUWdi6sT"
-            data-form-id="odLLLY4e7ZOkwUWdi6sT"
-            title="Descubrimiento Aurea Systems"
+            src="https://api.leadconnectorhq.com/widget/booking/Pmlo90k5oI5mm21x9Vqb"
+            style={{ width: '100%', height: '100%', border: 'none', overflow: 'hidden' }}
+            id="Pmlo90k5oI5mm21x9Vqb_1774805425911"
+            title="Agenda Reunión de Descubrimiento"
+            scrolling="no"
           >
           </iframe>
         </div>

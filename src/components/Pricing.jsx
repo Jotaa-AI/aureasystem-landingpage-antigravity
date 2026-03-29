@@ -94,7 +94,7 @@ const Pricing = ({ openModal }) => {
               </ul>
 
               <button onClick={openModal} className="btn btn-accent" style={{ width: '100%' }}>
-                Solicitar Bloqueo de Plaza
+                Agenda Reunión de Descubrimiento
               </button>
               <p style={{ fontSize: '0.8rem', color: 'var(--color-text-light-muted)', textAlign: 'center', marginTop: '1rem' }}>
                 Permanencia operativa mínima: 3 meses.

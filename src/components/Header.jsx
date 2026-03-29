@@ -20,7 +20,7 @@ const Header = ({ openModal }) => {
         </FadeIn>
         <FadeIn delay={200}>
           <button onClick={openModal} className="btn btn-primary" style={{ padding: '0.6rem 1.2rem', fontSize: '0.9rem' }}>
-            Agendar Sesión
+            Agenda Reunión de Descubrimiento
           </button>
         </FadeIn>
       </div>

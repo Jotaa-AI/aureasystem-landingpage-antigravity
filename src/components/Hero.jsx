@@ -37,7 +37,7 @@ const Hero = ({ openModal }) => {
           
           <FadeIn delay={400} style={{ marginTop: '1rem' }}>
             <button onClick={openModal} className="btn btn-primary" style={{ padding: '1.2rem 2.5rem', fontSize: '1.1rem', display: 'inline-block' }}>
-              Agendar Sesión Estratégica
+              Agenda Reunión de Descubrimiento
             </button>
             <p style={{ fontSize: '0.85rem', color: 'var(--color-text-light-muted)', marginTop: '0.8rem' }}>
               Solo 5 plazas de Fundador disponibles. Aceptación sujeta a auditoría.

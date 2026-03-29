@@ -16,7 +16,7 @@ const CTA = ({ openModal }) => {
         
         <FadeIn delay={200}>
           <button onClick={openModal} className="btn dark-mode-btn" style={{ padding: '1.2rem 2.8rem', fontSize: '1.1rem', color: 'var(--color-bg-dark)', fontWeight: 600 }}>
-            Agendar Auditoría Telefónica Gratuita
+            Agenda Reunión de Descubrimiento
           </button>
           <p style={{ fontSize: '0.85rem', color: 'var(--color-text-light-muted)', marginTop: '1.5rem' }}>
             Charla táctica de 20 minutos por Zoom. Evaluamos si tu clínica cumple con los requisitos mínimos de integración y resolvemos tus dudas. Sin presión comercial insistente.
