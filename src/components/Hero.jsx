@@ -1,7 +1,5 @@
 import React from 'react';
 import FadeIn from './FadeIn';
-import { Bot, CheckCircle, CalendarDays, TrendingUp } from 'lucide-react';
-
 const Hero = ({ openModal }) => {
   return (
     <section className="section" style={{ minHeight: '80vh', display: 'flex', alignItems: 'center', paddingTop: '4rem', paddingBottom: '4rem' }}>
@@ -51,48 +49,24 @@ const Hero = ({ openModal }) => {
         {/* Columna Derecha - Visual UI (Dashboard simulado) */}
         <FadeIn delay={300}>
           <div style={{ 
-            backgroundColor: 'var(--color-surface)',
             borderRadius: 'var(--radius-lg)',
             boxShadow: 'var(--shadow-lg)',
-            border: '1px solid var(--color-gold-light)',
-            padding: '2rem',
-            display: 'flex',
-            flexDirection: 'column',
-            gap: '1.5rem',
-            position: 'relative'
+            border: '4px solid var(--color-surface)',
+            overflow: 'hidden',
+            position: 'relative',
+            backgroundColor: '#000'
           }}>
-            {/* Header del UI simulado */}
-            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', borderBottom: '1px solid #F3F4F6', paddingBottom: '1rem' }}>
-              <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-                <TrendingUp size={20} color="var(--color-accent)" />
-                <span style={{ fontWeight: 600, color: 'var(--color-text)' }}>Resumen Diario</span>
-              </div>
-              <span style={{ fontSize: '0.85rem', color: 'var(--color-text-muted)' }}>Hoy, 10:24 AM</span>
-            </div>
-
-            {/* Notificaciones UI simuladas */}
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
-              <NotificationItem 
-                icon={<Bot size={18} color="#4A5A6A" />} 
-                title="Potencial paciente contactado por IA" 
-                time="Hace 32s" 
-                detail="Interés: Ácido Hialurónico Labios"
-                isActive={true}
-              />
-              <NotificationItem 
-                icon={<CheckCircle size={18} color="#10B981" />} 
-                title="Cualificación superada" 
-                time="Hace 2m" 
-                detail="Presupuesto aceptado visualmente"
-              />
-              <NotificationItem 
-                icon={<CalendarDays size={18} color="#D8C3A5" />} 
-                title="Consulta agendada automáticamente" 
-                time="Hace 4m" 
-                detail="Próximo Martes a las 17:30h"
-              />
-            </div>
-
+            <video 
+              autoPlay 
+              loop 
+              muted 
+              playsInline
+              style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
+            >
+              <source src="https://assets.cdn.filesafe.space/ju5vSpTX0hpH3uI8cPSE/media/69c951fe9dbb420faeeb5326.mp4" type="video/mp4" />
+              Tu navegador no soporta el formato de video.
+            </video>
+            
             {/* Decoración ambiental para el "Quiet Luxury" */}
             <div style={{
               position: 'absolute',
@@ -112,33 +86,6 @@ const Hero = ({ openModal }) => {
   );
 };
 
-// Sub-componente gráfico para la UI del Dashboard
-const NotificationItem = ({ icon, title, time, detail, isActive = false }) => (
-  <div style={{ 
-    display: 'flex', 
-    gap: '1rem', 
-    padding: '1rem', 
-    backgroundColor: isActive ? 'var(--color-bg)' : '#FFFFFF',
-    borderRadius: 'var(--radius-sm)',
-    borderLeft: isActive ? '3px solid var(--color-accent)' : '3px solid transparent',
-    transition: 'all 0.3s ease'
-  }}>
-    <div style={{ 
-      width: '36px', height: '36px', 
-      borderRadius: '50%', 
-      backgroundColor: 'var(--color-gold-light)', 
-      display: 'flex', justifyContent: 'center', alignItems: 'center' 
-    }}>
-      {icon}
-    </div>
-    <div style={{ flex: 1 }}>
-      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '0.2rem' }}>
-        <h4 style={{ fontSize: '0.95rem', margin: 0 }}>{title}</h4>
-        <span style={{ fontSize: '0.75rem', color: 'var(--color-text-light-muted)' }}>{time}</span>
-      </div>
-      <p style={{ fontSize: '0.85rem', color: 'var(--color-text-muted)', margin: 0 }}>{detail}</p>
-    </div>
-  </div>
-);
+
 
 export default Hero;
