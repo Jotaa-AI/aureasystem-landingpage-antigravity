@@ -4,6 +4,7 @@ import Hero from './components/Hero';
 import Credibility from './components/Credibility';
 import Problem from './components/Problem';
 import Mechanism from './components/Mechanism';
+import DemoSection from './components/DemoSection';
 import Results from './components/Results';
 import Features from './components/Features';
 import Bonuses from './components/Bonuses';
@@ -23,6 +24,7 @@ function App() {
       <Credibility />
       <Problem />
       <Mechanism />
+      <DemoSection />
       <Results />
       <Features />
       <Bonuses />
