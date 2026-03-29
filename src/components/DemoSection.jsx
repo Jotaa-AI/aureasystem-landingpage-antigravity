@@ -3,7 +3,7 @@ import FadeIn from './FadeIn';
 import { PhoneCall, CheckCircle2, AlertCircle, Loader2 } from 'lucide-react';
 
 const DemoSection = () => {
-  const [formData, setFormData] = useState({ nombre: '', telefono: '' });
+  const [formData, setFormData] = useState({ nombre: '', email: '', telefono: '' });
   const [status, setStatus] = useState('idle'); // idle | loading | success | error
 
   const handleChange = (e) => {
@@ -90,7 +90,7 @@ const DemoSection = () => {
                   </button>
                 </div>
               ) : (
-                <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
+                <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '1.2rem' }}>
                   <div className="form-group" style={{ margin: 0 }}>
                     <label htmlFor="demo-nombre">Tu Nombre</label>
                     <input 
@@ -100,6 +100,19 @@ const DemoSection = () => {
                       required 
                       placeholder="Ej. Dra. Carmen Ruiz" 
                       value={formData.nombre} 
+                      onChange={handleChange}
+                      style={{ width: '100%' }}
+                    />
+                  </div>
+                  <div className="form-group" style={{ margin: 0 }}>
+                    <label htmlFor="demo-email">Email de Empresa</label>
+                    <input 
+                      type="email" 
+                      id="demo-email" 
+                      name="email" 
+                      required 
+                      placeholder="ejemplo@clinica.com" 
+                      value={formData.email} 
                       onChange={handleChange}
                       style={{ width: '100%' }}
                     />
