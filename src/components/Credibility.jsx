@@ -28,7 +28,7 @@ const Credibility = () => {
               <Zap size={32} color="var(--color-accent)" strokeWidth={1.5} />
               <h3 style={{ fontSize: '1.25rem', margin: 0 }}>{"< 1 minuto"}</h3>
               <p style={{ fontSize: '0.9rem', color: 'var(--color-text-muted)', margin: 0 }}>
-                Respuesta inicial con IA al 100% de tus leads entrantes.
+                Respuesta inicial con IA al 100% de tus potenciales pacientes entrantes.
               </p>
             </div>
           </FadeIn>

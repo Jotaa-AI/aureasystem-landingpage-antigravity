@@ -74,7 +74,7 @@ const Hero = ({ openModal }) => {
             <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
               <NotificationItem 
                 icon={<Bot size={18} color="#4A5A6A" />} 
-                title="Lead contactado por IA" 
+                title="Potencial paciente contactado por IA" 
                 time="Hace 32s" 
                 detail="Interés: Ácido Hialurónico Labios"
                 isActive={true}

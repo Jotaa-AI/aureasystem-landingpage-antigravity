@@ -11,7 +11,7 @@ const Mechanism = () => {
     {
       num: "02",
       title: "Respuesta Hiperacelerada",
-      desc: "Nuestro sistema detecta el interés y contacta al paciente en su WhatsApp personal en menos de 60 segundos. 24h al día, 7 días a la semana. Cero enfriamiento del lead, maximizando la conversión inmediata."
+      desc: "Nuestro sistema detecta el interés y contacta al paciente en su WhatsApp personal en menos de 60 segundos. 24h al día, 7 días a la semana. Cero enfriamiento del potencial paciente, maximizando la conversión inmediata."
     },
     {
       num: "03",

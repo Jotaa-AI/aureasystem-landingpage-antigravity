@@ -7,12 +7,12 @@ const Problem = () => {
     {
       icon: <Clock size={28} color="var(--color-gold)" strokeWidth={1.5} />,
       title: "La Fuga del Minuto 1",
-      desc: "Un lead que no es atendido en los primeros 5 minutos se va con tu competencia local. Es humanamente imposible que una recepción gane a esa ventana de tiempo."
+      desc: "Un potencial paciente que no es atendido en los primeros 5 minutos se va con tu competencia local. Es humanamente imposible que una recepción gane a esa ventana de tiempo."
     },
     {
       icon: <MessageSquareX size={28} color="var(--color-gold)" strokeWidth={1.5} />,
       title: "El Agujero Negro de WhatsApp",
-      desc: "Leads que preguntan 'precio' y luego te dejan en visto, conversaciones fantasma y horas perdidas persiguiendo posibles pacientes."
+      desc: "Potenciales pacientes que preguntan 'precio' y luego te dejan en visto, conversaciones fantasma y horas perdidas persiguiendo posibles pacientes."
     },
     {
       icon: <CalendarX2 size={28} color="var(--color-gold)" strokeWidth={1.5} />,
@@ -40,7 +40,7 @@ const Problem = () => {
             EL DIAGNÓSTICO DEL CRECIMIENTO
           </span>
           <h2 style={{ fontSize: 'clamp(2rem, 4vw, 3rem)', color: 'var(--color-text-light)', marginTop: '0.5rem', marginBottom: '1.5rem' }}>
-            Más volumen de leads ya no es la métrica de éxito.<br/>Es el inicio del caos.
+            Más volumen de potenciales pacientes ya no es la métrica de éxito.<br/>Es el inicio del caos.
           </h2>
         </FadeIn>
 

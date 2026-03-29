@@ -43,7 +43,7 @@ const FAQ = () => {
       a: "No te pondremos a programar. Todo el flujo, Inteligencia Artificial y configuración técnica la manejamos nosotros. Tendrás acceso a un panel simplificado solo para ver métricas e impacto en facturación, y tu personal tratará los chats corporativos con pacientes cualificados tal y como prefieren hacerlo hoy."
     },
     {
-      q: "Tenemos una agencia pero 'los leads no son buenos'. ¿En qué os diferenciáis?",
+      q: "Tenemos una agencia pero 'los potenciales pacientes no son buenos'. ¿En qué os diferenciáis?",
       a: "Una agencia local usa formularios para conseguir un email y teléfono, te los pasa en un excel al día siguiente, el paciente ya está frío, y no tiene los medios económicos. The PatientFlow se mete en medio: si el prospecto no contesta de inmediato ni avanza las fases económicas, la Inteligencia Artificial lo descarta y el tiempo de tu equipo no se contamina persiguiendo curiosos."
     },
     {
