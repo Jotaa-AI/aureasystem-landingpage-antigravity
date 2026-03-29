@@ -3,10 +3,10 @@ import FadeIn from './FadeIn';
 const Hero = ({ openModal }) => {
   return (
     <section className="section" style={{ minHeight: '80vh', display: 'flex', alignItems: 'center', paddingTop: '4rem', paddingBottom: '4rem' }}>
-      <div className="container grid grid-2" style={{ alignItems: 'center' }}>
+      <div className="container grid grid-2" style={{ alignItems: 'stretch' }}>
         
         {/* Columna Izquierda - Copy */}
-        <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem', paddingRight: '2rem' }}>
+        <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem', paddingRight: '2rem', justifyContent: 'center' }}>
           <FadeIn delay={100}>
             <span style={{ 
               fontSize: '0.8rem', 
@@ -46,15 +46,16 @@ const Hero = ({ openModal }) => {
           </FadeIn>
         </div>
 
-        {/* Columna Derecha - Visual UI (Dashboard simulado) */}
-        <FadeIn delay={300}>
+        {/* Columna Derecha - Visual UI (Video) */}
+        <FadeIn delay={300} style={{ height: '100%' }}>
           <div style={{ 
             borderRadius: 'var(--radius-lg)',
             boxShadow: 'var(--shadow-lg)',
             border: '4px solid var(--color-surface)',
             overflow: 'hidden',
             position: 'relative',
-            backgroundColor: '#000'
+            backgroundColor: '#000',
+            height: '100%'
           }}>
             <video 
               autoPlay 
@@ -67,7 +68,7 @@ const Hero = ({ openModal }) => {
               Tu navegador no soporta el formato de video.
             </video>
             
-            {/* Decoración ambiental para el "Quiet Luxury" */}
+            {/* Decoración ambiental */}
             <div style={{
               position: 'absolute',
               top: '-20px',

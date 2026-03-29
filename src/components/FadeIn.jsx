@@ -1,6 +1,6 @@
 import React, { useRef, useEffect, useState } from 'react';
 
-const FadeIn = ({ children, delay = 0, className = '' }) => {
+const FadeIn = ({ children, delay = 0, className = '', style = {} }) => {
   const [isVisible, setIsVisible] = useState(false);
   const domRef = useRef();
 
@@ -39,7 +39,7 @@ const FadeIn = ({ children, delay = 0, className = '' }) => {
     <div
       ref={domRef}
       className={`fade-in ${isVisible ? 'visible' : ''} ${className}`}
-      style={{ transitionDelay: `${delay}ms` }}
+      style={{ ...style, transitionDelay: `${delay}ms` }}
     >
       {children}
     </div>
